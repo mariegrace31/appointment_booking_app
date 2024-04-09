@@ -39,7 +39,6 @@ function Header() {
       </ul>
       </div>
       <Button>Get Started</Button>
-
     </div>
   )
 }
