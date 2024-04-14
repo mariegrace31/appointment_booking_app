@@ -18,6 +18,7 @@ function Hero() {
           />
         </div>
       </div>
+      
 
       <div className="relative flex items-center bg-gray-100">
         <span
