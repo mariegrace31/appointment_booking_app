@@ -21,6 +21,7 @@ function Header() {
       path: '/contact'
     },
   ]
+  
   return (
 <header class="bg-white">
   <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
