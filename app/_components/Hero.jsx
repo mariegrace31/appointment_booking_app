@@ -14,14 +14,14 @@ function Hero() {
             src="/doctors.jpg"
             width={800}
             height={800}
-            className="absolute inset-0 rounded-3xl h-3/4 w-full object-cover"
+            className="absolute inset-0 rounded-3xl md:h-3/5 h-full w-full object-cover"
           />
         </div>
       </div>
       
-      <div className="relative flex items-center h-4/5 bg-gray-100">
+      <div className="relative flex items-center md:h-4/6 bg-white">
         <span
-          className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"
+          className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-white"
         ></span>
         <div className="p-8 sm:p-16 lg:p-24">
           <h2 className="text-2xl font-bold sm:text-3xl">
