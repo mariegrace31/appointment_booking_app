@@ -4,17 +4,17 @@ import React from 'react';
 
 function Hero() {
   return (
-<section>
-  <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
-    <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
-      <div className="relative z-10 lg:py-16">
+<section >
+  <div className="mx-auto max-w-screen-2xl px-4 pt-8 sm:px-6 lg:px-8">
+    <div className="grid grid-cols-1 md:h-screen lg:h-5/6 lg:grid-cols-2">
+      <div className="relative z-10">
         <div className="relative h-64 sm:h-80 lg:h-full">
           <Image
             alt="doctor"
             src="/doctors.jpg"
             width={800}
             height={800}
-            className="absolute inset-0 rounded-3xl md:h-3/5 h-full w-full object-cover"
+            className="absolute inset-0 rounded-3xl md:h-5/6 h-full w-full object-cover"
           />
         </div>
       </div>
@@ -23,7 +23,7 @@ function Hero() {
         <span
           className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-white"
         ></span>
-        <div className="p-8 sm:p-16 lg:p-24">
+        <div className="p-8 sm:p-16 lg:p-24 lg:pt-36">
           <h2 className="text-2xl font-bold sm:text-3xl">
             Welcome to <span className='text-primary'>ZoneDoctor</span> : Your Simple Solution for Booking Doctors!
           </h2>
