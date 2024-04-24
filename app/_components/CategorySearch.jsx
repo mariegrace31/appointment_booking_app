@@ -11,9 +11,9 @@ function CategorySearch() {
       <div className="flex w-full max-w-sm items-center space-x-2">
         <Input type="text" placeholder="Search a Doctor..." />
         <Button type="submit">Search 
-        
           <IoSearch className='w-6 h-4' />
         </Button>
+        
     </div>
     </div>
   )
