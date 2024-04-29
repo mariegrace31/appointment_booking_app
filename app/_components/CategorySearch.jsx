@@ -13,7 +13,6 @@ function CategorySearch() {
         <Button type="submit">Search 
           <IoSearch className='w-6 h-4' />
         </Button>
-        
     </div>
     </div>
   )
